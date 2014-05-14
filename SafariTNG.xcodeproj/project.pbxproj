@@ -14,7 +14,7 @@
 		DCE0C1BE1923CFC200F45647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0C1BD1923CFC200F45647 /* main.m */; };
 		DCE0C1C21923CFC200F45647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0C1C11923CFC200F45647 /* AppDelegate.m */; };
 		DCE0C1C51923CFC200F45647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0C1C31923CFC200F45647 /* Main.storyboard */; };
-		DCE0C1C81923CFC200F45647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0C1C71923CFC200F45647 /* ViewController.m */; };
+		DCE0C1C81923CFC200F45647 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0C1C71923CFC200F45647 /* WebViewController.m */; };
 		DCE0C1CA1923CFC200F45647 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE0C1C91923CFC200F45647 /* Images.xcassets */; };
 		DCE0C1D11923CFC200F45647 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE0C1D01923CFC200F45647 /* XCTest.framework */; };
 		DCE0C1D21923CFC200F45647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE0C1B11923CFC100F45647 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		DCE0C1C01923CFC200F45647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCE0C1C11923CFC200F45647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DCE0C1C41923CFC200F45647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCE0C1C61923CFC200F45647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCE0C1C71923CFC200F45647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCE0C1C61923CFC200F45647 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DCE0C1C71923CFC200F45647 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		DCE0C1C91923CFC200F45647 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCE0C1CF1923CFC200F45647 /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE0C1D01923CFC200F45647 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				DCE0C1C01923CFC200F45647 /* AppDelegate.h */,
 				DCE0C1C11923CFC200F45647 /* AppDelegate.m */,
 				DCE0C1C31923CFC200F45647 /* Main.storyboard */,
-				DCE0C1C61923CFC200F45647 /* ViewController.h */,
-				DCE0C1C71923CFC200F45647 /* ViewController.m */,
+				DCE0C1C61923CFC200F45647 /* WebViewController.h */,
+				DCE0C1C71923CFC200F45647 /* WebViewController.m */,
 				DCE0C1C91923CFC200F45647 /* Images.xcassets */,
 				DCE0C1B81923CFC100F45647 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE0C1C81923CFC200F45647 /* ViewController.m in Sources */,
+				DCE0C1C81923CFC200F45647 /* WebViewController.m in Sources */,
 				DCE0C1C21923CFC200F45647 /* AppDelegate.m in Sources */,
 				DCE0C1BE1923CFC200F45647 /* main.m in Sources */,
 			);
